@@ -38,5 +38,5 @@ def filtrar_tareas(df, mes: int, año: int, nombre: Optional[str] = None, descri
 # Aquí uso el mes 11 y el año 2023 como ejemplo. Se puede ajustar para otros valores.
 tareas_df = pd.read_excel('tareas.xlsx')
 
-ejemplo_salida = filtrar_tareas(tareas_df, 12, 2023, nombre='Luis Alvarado', descripcion=1)
+ejemplo_salida = filtrar_tareas(tareas_df, 2, 2024, nombre='Luis Alvarado', descripcion=1)
 print(ejemplo_salida)
