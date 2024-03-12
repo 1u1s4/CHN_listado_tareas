@@ -1,0 +1,15 @@
+#10320 - Hacer modelo de base de la datos en Power BI para Tablero de Indicadores Institucionales
+#10316 - Conexión de tablas del DW al Tablero de Indicadores Institucionales
+#10966 - Realizar Cronograma del Proyecto de Jurídico: Cronograma de desarrollo del proyecto de Confrontación Automática de Documentos Legales.
+#10368 - Optimizar carga de datos: optimizar carga de datos
+#10312 - Desarrollo de Agente usando Langchain: Desarrollo del Agente (LLM) que operara en el OCR Jurídico usando el framework Langchain.
+#11332 - Segunda Entrevista (reporte de Devengamiento): Entrevista con Luis Zamora sobre el reporte que genera de Devengamiento. 
+#10376 - Modificar carga de datos y modelo: Modificar carga de datos y modelo 
+#11320 - Diseño de la interfaz: SS de los mockups
+#11322 - Creación de la interfaz: Desarrollo en python de la UI usando el framework PyQt6.
+#11336 - Redacción de requerimientos: Redactar requerimientos necesarios para automatizar de los reportes: devengamiento, productos y recuperación. 
+#11334 - Diseño de Automatizaciones de la reporteria (3 reportes): Luego de la parte de investigación se diseñaran automatizaciones para los reportes. 
+#11330 - Creación de presentación de resultados de Flujo de Datos en Seguros y Fianzas: Crear una presentación para mostrar los resultados de la fase 1 del proyecto de flujo de datos en la gerencia de Seguros y Fianzas. 
+#11328 - Análisis y redacción de requerimientos Data Marts Seguros y Fianzas: Análisis de la necesidad de Data Marts de Seguros y Fianzas y redacción de requerimiento para su adición al DW bancario. 
+#11324 - QA a la interfaz y correciones (Frontend): Realizar QA con ayuda de los project managers y realizar las correcciones necesarias.
+#11326 - Diseño y desarrollo de la arquitectura del API: Utilizando FAST API se implementara la arquitectura diseñada para el proyecto.
