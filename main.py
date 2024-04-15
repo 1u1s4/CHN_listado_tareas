@@ -43,8 +43,9 @@ def filtrar_tareas(df, mes: int, año: int, nombre: Optional[str] = None, descri
 
 if __name__ == '__main__':
     tareas_df = pd.read_excel('tareas.xlsx')
+    tareas_df['Fecha límite'] = pd.to_datetime(tareas_df['Fecha límite'], dayfirst=True, format='%d/%m/%Y %H:%M:%S')
 
-    ejemplo_salida = filtrar_tareas(tareas_df, 3, 2024, nombre='Luis Alvarado', descripcion=True, excluir_email=True)
+    ejemplo_salida = filtrar_tareas(tareas_df, 4, 2024, nombre='Luis Alvarado', descripcion=True, excluir_email=True)
 
     with open('tareas.txt', 'w', encoding='utf-8') as f:
         f.write(ejemplo_salida)
