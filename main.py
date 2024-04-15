@@ -41,10 +41,10 @@ def filtrar_tareas(df, mes: int, año: int, nombre: Optional[str] = None, descri
 
     return '\n'.join(salida)
 
-tareas_df = pd.read_excel('tareas.xlsx')
+if __name__ == '__main__':
+    tareas_df = pd.read_excel('tareas.xlsx')
 
-ejemplo_salida = filtrar_tareas(tareas_df, 3, 2024, nombre='Luis Alvarado', descripcion=True, excluir_email=True)
+    ejemplo_salida = filtrar_tareas(tareas_df, 3, 2024, nombre='Luis Alvarado', descripcion=True, excluir_email=True)
 
-# guardar en un .txt
-with open('salida.txt', 'w', encoding='utf-8') as f:
-    f.write(ejemplo_salida)
+    with open('tareas.txt', 'w', encoding='utf-8') as f:
+        f.write(ejemplo_salida)
